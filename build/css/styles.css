@@ -8666,7 +8666,7 @@ ul {
 
 .product-main_info .gallery .gallery-box .gallery-more_list .gallery-additional_img img {
 	display: block;
-	height: auto;
+	height: 100%;
 	width: 100%;
 }
 
