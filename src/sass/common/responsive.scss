@@ -1,3 +1,5 @@
+/*========== home page ==========*/
+
 @media (max-width: 1199px) {
   .navbar-box .logo a {
     width: 150px;
@@ -403,5 +405,156 @@
 
   .footer-copy-bg .socialfootbox {
     padding-top: 20px;
+  }
+}
+
+/*========== product-card page ==========*/
+
+@media (max-width: 991px) {
+  .product-main_info {
+    & .gallery-title_box {
+      margin-bottom: 30px;
+
+      & .gallery-title {
+        flex: 0 0 100%;
+      }
+
+      & .gallery-btn {
+        flex: 0 0 100%;
+      }
+    }
+
+    & .gallery {
+      & .gallery-box {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+
+        & .gallery-main_img {
+          height: 236px;
+        }
+
+        & .gallery-more_list {
+          height: 236px;
+
+          & .gallery-additional_img {
+            height: 114px;
+          }
+        }
+      }
+
+      & .product-price {
+        flex: 0 0 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        & .price-rate,
+        .price-date,
+        .price-seller {
+          margin: 0;
+          flex: 0 0 32%;
+        }
+      }
+    }
+  }
+
+  .product-info_box,
+  .product-options_box {
+    min-height: 380px;
+
+    & .car-info,
+    .car-options {
+      flex: 0 0 100%;
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .product-main_info {
+    & .gallery {
+      & .gallery-box {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+
+        & .gallery-main_img {
+          flex: 0 0 100%;
+          height: auto;
+          margin-bottom: 10px;
+        }
+
+        & .gallery-more_list {
+          flex: 0 0 100%;
+          height: auto;
+
+          & .gallery-additional_img {
+            height: 170px;
+          }
+        }
+      }
+
+      & .product-price {
+        & .price-rate,
+        .price-date,
+        .price-seller {
+          flex: 0 0 100%;
+        }
+
+        & .price-rate,
+        .price-date {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .product-report {
+    & h3 {
+      text-align: center;
+    }
+
+    & .report-box {
+      flex-wrap: wrap;
+
+      & .report-img {
+        margin: 0 auto 10px auto;
+      }
+
+      & .report-info span {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-wrapper .navbar-box .logo {
+    display: none;
+  }
+
+  .product-main_info .gallery-title_box .gallery-btn {
+    flex-direction: column;
+
+    & .btn-primary {
+      margin-bottom: 20px;
+    }
+  }
+
+  .product-main_info
+    .gallery
+    .gallery-box
+    .gallery-more_list
+    .gallery-additional_img {
+    height: auto;
+  }
+
+  .car-options .car-options_main ul li input {
+    width: 95px;
+    margin-left: -30px;
   }
 }

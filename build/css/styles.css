@@ -8544,6 +8544,7 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .product-main_info .gallery-title_box .gallery-title {
@@ -8621,12 +8622,14 @@ ul {
 .product-main_info .gallery {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .product-main_info .gallery .gallery-box {
 	flex: 0 0 75%;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .product-main_info .gallery .gallery-box .gallery-main_img {
@@ -8663,7 +8666,7 @@ ul {
 
 .product-main_info .gallery .gallery-box .gallery-more_list .gallery-additional_img img {
 	display: block;
-	height: 100%;
+	height: auto;
 	width: 100%;
 }
 
@@ -8729,6 +8732,7 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
+	flex-wrap: wrap;
 	padding: 40px 0;
 }
 
@@ -8805,6 +8809,10 @@ ul {
 	margin: 0;
 	font-size: 15px;
 }
+
+/*========== home page ==========*/
+
+/*========== product-card page ==========*/
 
 @media screen and (prefers-reduced-motion: reduce) {
 
@@ -12174,6 +12182,70 @@ ul {
 	margin-top: -40px;
 }
 
+.product-main_info .gallery-title_box {
+	margin-bottom: 30px;
+}
+
+.product-main_info .gallery-title_box .gallery-title {
+	flex: 0 0 100%;
+}
+
+.product-main_info .gallery-title_box .gallery-btn {
+	flex: 0 0 100%;
+}
+
+.product-main_info .gallery .gallery-box {
+	flex: 0 0 100%;
+	margin-bottom: 30px;
+}
+
+.product-main_info .gallery .gallery-box .gallery-main_img {
+	height: 236px;
+}
+
+.product-main_info .gallery .gallery-box .gallery-more_list {
+	height: 236px;
+}
+
+.product-main_info .gallery .gallery-box .gallery-more_list .gallery-additional_img {
+	height: 114px;
+}
+
+.product-main_info .gallery .product-price {
+	flex: 0 0 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.product-main_info .gallery .product-price .price-rate,
+.product-main_info .gallery .product-price .price-date,
+.product-main_info .gallery .product-price .price-seller {
+	margin: 0;
+	flex: 0 0 32%;
+}
+
+.product-info_box,
+.product-options_box {
+	min-height: 380px;
+}
+
+.product-info_box .car-info,
+.product-info_box .car-options,
+.product-options_box .car-info,
+.product-options_box .car-options {
+	flex: 0 0 100%;
+	margin-bottom: 30px;
+}
+
+.product-info_box .car-info:last-child,
+.product-info_box .car-options:last-child,
+.product-options_box .car-info:last-child,
+.product-options_box .car-options:last-child {
+	margin-bottom: 0;
+}
+
 }
 
 @media (max-width: 767.98px) {
@@ -12268,6 +12340,53 @@ ul {
 
 .footer-contacts-box {
 	padding-bottom: 15px;
+}
+
+.product-main_info .gallery .gallery-box {
+	flex: 0 0 100%;
+	margin-bottom: 30px;
+}
+
+.product-main_info .gallery .gallery-box .gallery-main_img {
+	flex: 0 0 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.product-main_info .gallery .gallery-box .gallery-more_list {
+	flex: 0 0 100%;
+	height: auto;
+}
+
+.product-main_info .gallery .gallery-box .gallery-more_list .gallery-additional_img {
+	height: 170px;
+}
+
+.product-main_info .gallery .product-price .price-rate,
+.product-main_info .gallery .product-price .price-date,
+.product-main_info .gallery .product-price .price-seller {
+	flex: 0 0 100%;
+}
+
+.product-main_info .gallery .product-price .price-rate,
+.product-main_info .gallery .product-price .price-date {
+	margin-bottom: 20px;
+}
+
+.product-report h3 {
+	text-align: center;
+}
+
+.product-report .report-box {
+	flex-wrap: wrap;
+}
+
+.product-report .report-box .report-img {
+	margin: 0 auto 10px auto;
+}
+
+.product-report .report-box .report-info span {
+	text-align: center;
 }
 
 }
@@ -12455,6 +12574,27 @@ ul {
 
 .footer-copy-bg .socialfootbox {
 	padding-top: 20px;
+}
+
+.navbar-wrapper .navbar-box .logo {
+	display: none;
+}
+
+.product-main_info .gallery-title_box .gallery-btn {
+	flex-direction: column;
+}
+
+.product-main_info .gallery-title_box .gallery-btn .btn-primary {
+	margin-bottom: 20px;
+}
+
+.product-main_info .gallery .gallery-box .gallery-more_list .gallery-additional_img {
+	height: auto;
+}
+
+.car-options .car-options_main ul li input {
+	width: 95px;
+	margin-left: -30px;
 }
 
 }
