@@ -1,0 +1,244 @@
+/* ---------- top_title ---------- */
+
+.head_top {
+  padding: 20px 0px 10px 0px;
+}
+
+.socialbox {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 10px 0px 0px;
+  width: 55px;
+  float: left;
+}
+
+.socialbox .socialicon {
+  width: 21px;
+  height: 21px;
+  background-image: url("../images/social-header.svg");
+  margin: 3px;
+}
+
+.socialbox .socialicon.ico_twitter {
+  background-position: 0 0;
+}
+
+.socialbox .socialicon.ico_facebook {
+  background-position: -31px 0;
+}
+
+.socialbox .socialicon.ico_youtube {
+  background-position: 0 21px;
+}
+
+.socialbox .socialicon.ico_instagram {
+  background-position: -30px 21px;
+}
+
+.top_title {
+  color: #848484;
+  font-family: "Open Sans";
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.top_title h1 {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0px;
+  margin: 5px 0px 0px;
+}
+
+.descrcomp {
+  float: left;
+}
+
+.header {
+  background: url("../images/background.jpg") top center no-repeat;
+  background-size: cover;
+  height: 680px;
+  margin-bottom: 250px;
+}
+
+.header.inside_header {
+  height: auto;
+  margin-bottom: 100px;
+}
+
+/* ---------- contacts---------- */
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phonebox {
+  flex: 0 0 65%;
+  flex-direction: column;
+}
+
+.phonebox .phonebox_ins {
+  display: inline-block;
+  background: url("../images/smartphone.png") left center no-repeat;
+  padding-left: 40px;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  font-weight: 300;
+  color: #848484;
+}
+
+.phonebox_ins strong {
+  font-weight: 400;
+}
+
+.icophone {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.contacts .choeselang {
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.contacts .choeselang span {
+  display: block;
+}
+
+.contacts .choeselang .btn-group .btn-lang {
+  color: #000;
+}
+
+.contacts .choeselang .btn-group .dropdown-menu {
+  background: #fff;
+  padding-left: 5px;
+}
+
+.contacts .choeselang .btn-group .dropdown-menu a:hover {
+  background: #fff;
+  color: #000;
+}
+
+.contacts .dropup .dropdown-toggle::after {
+  display: none;
+}
+
+/* ---------- navbar-box ---------- */
+
+.navbar-wrapper {
+  border-radius: 0px;
+  background-color: rgba(23, 92, 138, 0.38);
+}
+
+.navbar-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-box .logo a {
+  display: block;
+  position: relative;
+  background-size: contain;
+  width: 218px;
+  margin-right: 10px;
+}
+
+.navbar-box .logo a img {
+  position: absolute;
+  top: -93px;
+  left: -20px;
+}
+
+.navbar-box .navigations .navbar {
+  padding: 0;
+}
+
+.navbar-box .navigations .navbar .navbar-nav {
+  align-items: center;
+}
+
+.navbar-box .navigations .navbar .navbar-nav li {
+  padding: 14px 10px;
+}
+
+.navbar-box .navigations .navbar .navbar-nav li a {
+  color: #fff;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  padding: 0px;
+  border-bottom: 1px dotted rgba(255, 252, 255, 0);
+}
+
+.navbar-box .navigations .navbar .navbar-nav .btn-search a .fa {
+  margin: 0;
+}
+
+.navbar-box .navigations .navbar .navbar-nav li a:hover,
+.navbar-box .navigations .navbar .navbar-nav li a:focus,
+.navbar-box .navigations .navbar .navbar-nav li a:active,
+.navbar-box .navigations .navbar .navbar-nav li.active a,
+.navbar-box .navigations .navbar .navbar-nav li a.active {
+  background: transparent;
+  border-bottom: 1px dotted rgba(255, 252, 255, 1);
+}
+
+.navbar-box .navigations .navbar .navbar-nav li a .fa {
+  margin-right: 5px;
+}
+
+.search-form {
+  margin-left: auto;
+}
+
+.search-form .searchline {
+  margin: 0;
+}
+
+.search-form .searchline .form-control {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 32px;
+  padding: 0 10px;
+}
+
+.search-form .searchline .form-control {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 32px;
+  padding: 0 10px;
+}
+
+.search-form .searchline .btn {
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form .searchline .btn .fa {
+  margin: 0;
+}

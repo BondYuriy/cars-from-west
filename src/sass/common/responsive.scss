@@ -1,0 +1,407 @@
+@media (max-width: 1199px) {
+  .navbar-box .logo a {
+    width: 150px;
+  }
+
+  .navbar-box .logo a img {
+    top: -65px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .select2-container .selection .select2-selection {
+    width: 95px !important;
+    margin: 0;
+  }
+
+  .whyarewe .title-box {
+    padding-top: 40px;
+  }
+
+  .navbar-box .navigations .navbar .navbar-nav li a {
+    font-size: 14px;
+  }
+
+  .stepshowitworks .circle-step {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+  }
+
+  .whyarewe .wwautors .andrew-image {
+    right: 190px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    position: initial;
+  }
+
+  .navbar-toggler {
+    border: 0;
+    padding: 0px 8px;
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    outline: none !important;
+    z-index: 25;
+    right: 0;
+  }
+
+  .navbar-toggler span,
+  .navbar-toggler span:before,
+  .navbar-toggler span:after {
+    background: #fff;
+    display: block;
+    height: 3px;
+    position: relative;
+    top: 0;
+    width: 24px;
+    transition: all 0.25s ease;
+  }
+
+  .navbar-toggler span:before,
+  .navbar-toggler span:after {
+    content: "";
+    position: absolute;
+  }
+
+  .navbar-toggler span:before {
+    top: -8px;
+  }
+
+  .navbar-toggler span:after {
+    top: 8px;
+  }
+
+  .open span {
+    background: transparent;
+  }
+
+  .open span:before {
+    transform: translateX(16%) rotate(45deg);
+    transform-origin: top left;
+  }
+
+  .open span:after {
+    transform: translateX(16%) rotate(-45deg);
+    transform-origin: bottom left;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 92, 138, 0.9);
+    z-index: 20;
+    padding: 15%;
+  }
+
+  .navbar-collapse .navbar-nav .nav-item .nav-link {
+    padding: 0;
+    color: #fff;
+  }
+
+  .slider-box .slider-desc span {
+    font-size: 28px;
+  }
+
+  .stepshowitworks .circle-step {
+    width: 9vw;
+    height: 9vw;
+    font-size: 4vw;
+    line-height: 9vw;
+  }
+
+  .stephiw-two .stepdesc {
+    right: 100%;
+  }
+
+  .stephiw-four .stepdesc {
+    left: 100%;
+  }
+
+  .footer-form .folowbox > a {
+    margin: 5px;
+  }
+
+  .logo_footer {
+    margin-top: -40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contacts {
+    padding-top: 15px;
+  }
+
+  .navbar-box .search-form {
+    padding: 10px 60px 10px 0;
+  }
+
+  .carsbox {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    margin-bottom: 150px;
+  }
+
+  .carsbox {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .ww-iconitem {
+    flex: 0 0 40%;
+  }
+
+  .whyarewe-iconbox > div:after {
+    display: none;
+  }
+
+  .ww-iconitem .ww-icondesc {
+    margin: auto;
+  }
+
+  .stepshowitworks {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .stepshowitworks .stephiw {
+    position: relative;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .stepshowitworks .stephiw:after {
+    content: none;
+  }
+
+  .stepshowitworks .circle-step {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .stephiw .stepdesc {
+    top: 0;
+    text-align: left;
+    right: inherit !important;
+    left: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 90px);
+  }
+
+  .footer-navi {
+    padding-top: 70px;
+    text-align: center;
+  }
+
+  .footer-contact-info {
+    text-align: center;
+  }
+
+  .footer-contacts-box {
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-box .logo a {
+    width: 150px;
+  }
+
+  .navbar-toggler {
+    right: -350px;
+  }
+
+  .navbar-box .search-form {
+    padding: 10px 60px 10px 0;
+  }
+
+  .logo_footer {
+    display: none;
+  }
+
+  .contacts {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .head_top img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    height: 980px;
+  }
+
+  .header .logo {
+    display: none;
+  }
+
+  .search-form .searchline .form-control {
+    width: 40%;
+  }
+
+  .descrcomp {
+    display: none;
+  }
+
+  .contacts {
+    padding: 0;
+  }
+
+  .contacts .choeselang {
+    display: none;
+  }
+
+  .contacts .phonebox .phonebox_ins {
+    font-size: 18px;
+  }
+
+  .contacts .phonebox {
+    flex: 0 0 100%;
+  }
+
+  .navbar-wrapper {
+    height: 60px;
+  }
+
+  .navbar-box .logo a {
+    width: 60px;
+  }
+
+  .navbar-box .logo a img {
+    width: 60px;
+    left: 0;
+    bottom: 0;
+    top: 5px;
+  }
+
+  .navbar-toggler {
+    right: 0;
+    bottom: -50px;
+  }
+
+  .navbar-box .search-form {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: -46px;
+    width: 100%;
+  }
+
+  .whyarewe {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .whyarewe .wwautors {
+    height: 290px;
+  }
+
+  .whyarewe .wwautors .dmitry-image {
+    width: 180px;
+    height: 295px;
+    right: 0%;
+  }
+
+  .whyarewe .wwautors .andrew-image {
+    width: 130px;
+    height: 300px;
+    bottom: 0;
+    left: 0%;
+  }
+
+  .whyarewe .wwautors .btn-yelow {
+    font-size: 16px;
+    color: #000;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    line-height: 16px;
+    padding: 5px 0px;
+    min-width: 140px;
+    left: 50%;
+    margin-left: -70px;
+    margin-bottom: 0;
+    height: 45px;
+  }
+
+  .whyarewe .wwautors .btn.btn-yelow .fa {
+    font-size: 18px;
+    margin-right: auto;
+  }
+
+  .whyarewe .wwautors .btn.btn-yelow > span {
+    font-size: 12px;
+  }
+
+  .whyarewe .wwautors .btn-primary {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    line-height: 16px;
+    min-width: 140px;
+    box-shadow: 0 5px 17px #84d2f6 !important;
+  }
+
+  .youtubebutton {
+    width: 210px;
+  }
+
+  .youtubebutton img {
+    display: none;
+  }
+
+  .hiw_bottombtn {
+    padding: 0;
+  }
+
+  .review-item {
+    flex-direction: column;
+  }
+
+  .portfolio-item {
+    display: block;
+  }
+
+  .portfolio-slider .portfolio-item {
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .footer-navi {
+    padding-top: 70px;
+  }
+
+  .logo_footer {
+    display: none;
+  }
+
+  .footer-copy-bg .copytext {
+    font-size: 12px;
+  }
+
+  .footer-copy-bg .socialfootbox {
+    padding-top: 20px;
+  }
+}
