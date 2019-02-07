@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="52px" viewBox="0 0 42 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon list copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="prodact-card-wer_1-copy" transform="translate(-444.000000, -649.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="icon-list-copy" transform="translate(444.000000, 649.000000)">
+                <path d="M39.375,7.8 L34.125,7.8 C34.125,6.36390625 32.9499023,5.2 31.5,5.2 L28.875,5.2 L28.875,2.6 C28.875,1.16390625 27.6999023,0 26.25,0 L15.75,0 C14.3000977,0 13.125,1.16390625 13.125,2.6 L13.125,5.2 L10.5,5.2 C9.05009766,5.2 7.875,6.36390625 7.875,7.8 L2.625,7.8 C1.17509766,7.8 0,8.96390625 0,10.4 L0,49.4 C0,50.8360937 1.17509766,52 2.625,52 L39.375,52 C40.8249023,52 42,50.8360938 42,49.4 L42,10.4 C42,8.96390625 40.8249023,7.8 39.375,7.8 Z M10.5,7.8 L15.75,7.8 L15.75,2.6 L26.25,2.6 L26.25,7.8 L31.5,7.8 L31.5,10.4 L10.5,10.4 L10.5,7.8 Z M39.375,49.4 L2.625,49.4 L2.625,10.4 L7.875,10.4 C7.875,11.8360937 9.05009766,13 10.5,13 L31.5,13 C32.9499023,13 34.125,11.8360937 34.125,10.4 L39.375,10.4 L39.375,49.4 Z" id="Shape"></path>
+                <rect id="Rectangle-path" x="7" y="17.6271186" width="27.125" height="1.76271186"></rect>
+                <rect id="Rectangle-path-Copy" x="7" y="30.8474576" width="27.125" height="1.76271186"></rect>
+                <rect id="Rectangle-path" x="7" y="24.6779661" width="27.125" height="1.76271186"></rect>
+                <rect id="Rectangle-path-Copy-2" x="7" y="37.8983051" width="27.125" height="1.76271186"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
