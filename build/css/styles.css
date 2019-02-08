@@ -7627,6 +7627,117 @@ cursor: pointer;
 	font-weight: 700;
 }
 
+.catalog-card {
+	background-color: #fff;
+}
+
+.catalog-card .catalog-card_img {
+	height: 185px;
+	overflow: hidden;
+}
+
+.catalog-card .catalog-card_img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.catalog-card .catalog-card_title {
+	background-color: #637076;
+	padding: 8px;
+}
+
+.catalog-card .catalog-card_title h2 {
+	color: #3bb3f0;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+
+.catalog-card .catalog-card_title h2 strong {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 5px;
+}
+
+.catalog-card .catalog-card_title span {
+	color: #edc400;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.catalog-card .catalog-card_info {
+	padding: 8px 11px 18px 11px;
+}
+
+.catalog-card .catalog-card_info .info-main {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #d8d8d8;
+	padding-bottom: 8px;
+	margin-bottom: 13px;
+}
+
+.catalog-card .catalog-card_info .info-main .info-main_date,
+.catalog-card .catalog-card_info .info-main .info-main_price {
+	flex: 0 0 50%;
+	text-align: center;
+}
+
+.catalog-card .catalog-card_info .info-main .info-main_date .name,
+.catalog-card .catalog-card_info .info-main .info-main_price .name {
+	display: block;
+	color: #bbb7b7;
+	font-size: 16px;
+}
+
+.catalog-card .catalog-card_info .info-main .info-main_date .value,
+.catalog-card .catalog-card_info .info-main .info-main_price .value {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.catalog-card .catalog-card_info .info-main .info-main_date {
+	border-right: 1px solid #d8d8d8;
+}
+
+.catalog-card .catalog-card_info .info-main .info-main_date .value {
+	color: #3bb3f0;
+}
+
+.catalog-card .catalog-card_info .info-main .info-main_price .value {
+	color: #edc400;
+}
+
+.catalog-card .catalog-card_info .info-list {
+	margin-bottom: 13px;
+}
+
+.catalog-card .catalog-card_info .info-list ul li {
+	color: #9b9b9b;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.catalog-card .catalog-card_info .info-list ul li strong {
+	font-weight: 400;
+	margin-left: 5px;
+}
+
+.catalog-card .catalog-card_info .btn-primary {
+	display: block;
+	width: 141px;
+	height: 37px;
+	box-shadow: 0 2px 11px #aaddf5;
+	border-radius: 56px;
+	margin: auto;
+}
+
+.catalog-card .catalog-card_info .btn-primary:hover {
+	box-shadow: 0 2px 11px #aaddf5;
+}
+
 .wrapper {
 	overflow: hidden;
 }
@@ -8810,9 +8921,89 @@ ul {
 	font-size: 15px;
 }
 
+.wrapper-catalog {
+	overflow: hidden;
+}
+
+.wrapper-catalog .navbar-wrapper {
+	background-color: #33a1fd;
+}
+
+.wrapper-catalog .navbar-wrapper .navbar-box .logo a img {
+	width: 160px;
+	top: -110px;
+}
+
+.main {
+	background-color: #f8f9fb;
+}
+
+.category {
+	padding: 34px 0 64px 0;
+}
+
+.category h1 {
+	color: #58656b;
+	font-family: "Open Sans", sans-serif;
+	font-size: 21px;
+	margin-bottom: 25px;
+}
+
+.category .catalog-box {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 61px;
+}
+
+.category .catalog-box .catalog-card {
+	flex: 0 0 23%;
+}
+
+.category .pagination {
+	display: flex;
+	justify-content: center;
+}
+
+.category .pagination ul {
+	display: flex;
+	align-items: center;
+}
+
+.category .pagination ul li {
+	margin-right: 15px;
+}
+
+.category .pagination ul li:last-child {
+	margin-right: 0;
+}
+
+.category .pagination ul li a {
+	display: block;
+	padding: 7px 14px;
+	box-shadow: 0 2px 11px #d8d8d8;
+	border-radius: 9px;
+	background-image: linear-gradient(180deg, #e8e8e8 0%, #cfcfcf 100%);
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.category .pagination ul li:hover > a {
+	background-image: linear-gradient(180deg, #cfcfcf 0%, #e8e8e8 100%);
+	border-radius: 9px;
+}
+
+.category .pagination ul .active a {
+	box-shadow: 0 2px 11px #aaddf5;
+	background-image: linear-gradient(180deg, #84d2f6 0%, #33a1fd 100%);
+	color: #fff;
+}
+
 /*========== home page ==========*/
 
 /*========== product-card page ==========*/
+
+/*========== catalog page ==========*/
 
 @media screen and (prefers-reduced-motion: reduce) {
 
@@ -9791,6 +9982,24 @@ ul {
 	margin-top: 20px;
 }
 
+.category .catalog-box .catalog-card {
+	flex: 0 0 49%;
+	margin-right: 2%;
+	margin-bottom: 35px;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(2n + 1) {
+	margin-right: 0;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(-n + 2) {
+	margin-bottom: 0;
+}
+
+.catalog-card .catalog-card_img {
+	height: 176px;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -10535,6 +10744,24 @@ ul {
 	margin-top: 60px;
 }
 
+.category .catalog-box .catalog-card {
+	flex: 0 0 32%;
+	margin-right: 1.3%;
+	margin-bottom: 35px;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(3n + 1) {
+	margin-right: 0;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(-n + 3) {
+	margin-bottom: 0;
+}
+
+.catalog-card .catalog-card_img {
+	height: 156px;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -11269,6 +11496,24 @@ ul {
 
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.category .catalog-box .catalog-card {
+	flex: 0 0 24%;
+	margin-right: 1.3%;
+	margin-bottom: 35px;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(4n + 1) {
+	margin-right: 0;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(-n + 4) {
+	margin-bottom: 0;
+}
+
+}
+
 @media (min-width: 1200px) {
 
 .container {
@@ -11995,6 +12240,19 @@ ul {
 	text-align: center !important;
 }
 
+.category .catalog-box .catalog-card {
+	margin-right: 2.6%;
+	margin-bottom: 35px;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(4n + 1) {
+	margin-right: 0;
+}
+
+.category .catalog-box .catalog-card:nth-last-child(-n + 4) {
+	margin-bottom: 0;
+}
+
 }
 
 @media (max-width: 1199.98px) {
@@ -12052,6 +12310,14 @@ ul {
 
 .whyarewe .wwautors .andrew-image {
 	right: 190px;
+}
+
+.category .catalog-box .catalog-card .catalog-card_info .info-main .info-main_price .name {
+	font-size: 15px;
+}
+
+.category .catalog-box .catalog-card .catalog-card_info .info-main .info-main_date .name {
+	font-size: 15px;
 }
 
 }
@@ -12595,6 +12861,20 @@ ul {
 .car-options .car-options_main ul li input {
 	width: 95px;
 	margin-left: -30px;
+}
+
+.category .catalog-box .catalog-card {
+	flex: 0 0 100%;
+	margin-right: 0;
+	margin-bottom: 35px;
+}
+
+.category .catalog-box .catalog-card:last-child {
+	margin-bottom: 0;
+}
+
+.catalog-card .catalog-card_img {
+	height: auto;
 }
 
 }
